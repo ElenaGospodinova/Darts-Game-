@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="darts.css" />
+    <script src="./darts.js" defer async></script>
+    <title>Darts Game</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <img src="dartboard.png" alt="dartboard" />
+    </div>
+
+    <!-----for less then 5 seconds to target the red center-->
+    <div class="user">
+        <p>Hit the Red-Center & Click "Stop". (You have 5 seconds)</p>
+
+        <button type="button" onclick="hitStop()" >Stop!</button>
+
+        <h2 id="result"></h2>
+        <h2 id="win"></h2>
+    </div>
+  </body>
+</html>
